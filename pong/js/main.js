@@ -81,7 +81,7 @@ Play.prototype = {
 
 	}
 	if(this.ball.body.blocked.left){
-	    this.possession = 1;
+	  possession = 1;
 	    this.resetBall();
 	}
     },
